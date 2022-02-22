@@ -1,70 +1,31 @@
 {
-    "serviceCapability": [
-        "all",
-        "epipe",
-        "vprn",
-        "mirror",
-        "apipe",
-        "vlan",
-        "fpipe",
-        "vpls",
-        "ies",
-        "cpipe",
-        "mvpls",
-        "ipipe"
-    ],
-    "numberOfNextHopInterfaceEntries": "0",
-    "useIpv6Resource": "false",
-    "chainToSystemFilter": "false",
-    "type": "normal",
-    "defaultAction": "drop",
-    "radiusStartEntry": "0",
-    "radiusCount": "0",
-    "creditControlStartEntry": "0",
-    "creditControlCount": "0",
-    "highWaterMark": "95",
-    "lowWaterMark": "90",
-    "creditControlInsertion": "0",
-    "radiusInsertion": "0",
-    "groupEntriesApplication": "creditControl",
-    "groupEntriesLocation": "top",
-    "groupEntriesResult": "none",
-    "hostSharedStartEntry": "0",
-    "hostSharedCount": "0",
-    "hostSharedInsertion": "0",
-    "sharedPccRuleStartEntry": "0",
-    "sharedPccRuleCount": "0",
-    "sharedPccRuleInsertion": "0",
-    "hostSharedHighWmark": "-1",
-    "hostSharedLowWmark": "-1",
-    "hostSharedFilterCount": "0",
-    "displayedId": "1",
-    "scope": "template",
-    "filterName": "1",
-    "filterType": "ip",
-    "policyMode": "static",
-    "numberOfUnderlyingPolicyItems": "0",
-    "configurationAction": "mergeIfExists",
-    "configurationMode": "draft",
-    "distributionMode": "syncWithGlobal",
-    "origin": "50.50.50.53",
-    "lastSyncTime": "1643092744506",
-    "discoveryState": "completed",
-    "isMaster": "false",
-    "policySyncGroupPointer": "",
-    "policyType": "ipAcl",
-    "isLocal": "false",
-    "siteId": "0.0.0.0",
-    "siteName": "N/A",
-    "displayedName": "IP Filter-1",
-    "description": "N/A",
-    "id": "1",
-    "globalPolicy": "",
-    "templateObject": "",
-    "deploymentState": 0,
-    "objectFullName": "IP Filter:1",
-    "name": "1",
-    "className": "aclfilter.IpFilter",
-    "selfAlarmed": "false",
-    "aclfilter.IpFilter": {}
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
