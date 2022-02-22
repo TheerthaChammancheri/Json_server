@@ -1,173 +1,70 @@
 {
-
-  "count": 1,
-
-  "next": null,
-
-  "previous": null,
-
-  "results": [
-
-    {
-
-      "id": 1003,
-
-      "name": "AUH-1416-AGGR-SR12E-1",
-
-      "display_name": "AUH-1416-AGGR-SR12E-1",
-
-      "device_type": {
-
-        "id": 3,
-
-        "url": "http://172.23.127.154:8085/api/dcim/device-types/3/",
-
-        "manufacturer": {
-
-          "id": 1,
-
-          "url": "http://172.23.127.154:8085/api/dcim/manufacturers/1/",
-
-          "name": "Nokia",
-
-          "slug": "Nokia"
-
-        },
-
-        "model": "7750-SR12e",
-
-        "slug": "7750-sr12e",
-
-        "display_name": "Nokia 7750-SR12e"
-
-      },
-
-      "device_role": {
-
-        "id": 1,
-
-        "url": "http://172.23.127.154:8085/api/dcim/device-roles/1/",
-
-        "name": "AGGR",
-
-        "slug": "aggr"
-
-      },
-
-      "tenant": null,
-
-      "platform": {
-
-        "id": 1,
-
-        "url": "http://172.23.127.154:8085/api/dcim/platforms/1/",
-
-        "name": "sros",
-
-        "slug": "sros"
-
-      },
-
-      "serial": "",
-
-      "asset_tag": null,
-
-      "site": {
-
-        "id": 713,
-
-        "url": "http://172.23.127.154:8085/api/dcim/sites/713/",
-
-        "name": "AUH1416",
-
-        "slug": "auh1416"
-
-      },
-
-      "rack": null,
-
-      "position": null,
-
-      "face": null,
-
-      "parent_device": null,
-
-      "status": {
-
-        "value": 1,
-
-        "label": "Active"
-
-      },
-
-      "primary_ip": {
-
-        "id": 3839,
-
-        "url": "http://172.23.127.154:8085/api/ipam/ip-addresses/3839/",
-
-        "family": 4,
-
-        "address": "10.65.0.41/32"
-
-      },
-
-      "primary_ip4": {
-
-        "id": 3839,
-
-        "url": "http://172.23.127.154:8085/api/ipam/ip-addresses/3839/",
-
-        "family": 4,
-
-        "address": "10.65.0.41/32"
-
-      },
-
-      "primary_ip6": null,
-
-      "cluster": null,
-
-      "virtual_chassis": null,
-
-      "vc_position": null,
-
-      "vc_priority": null,
-
-      "comments": "",
-
-      "local_context_data": null,
-
-      "tags": [],
-
-      "custom_fields": {
-
-        "SDP": 1041,
-
-        "SID": 0,
-
-        "SID3": 1924,
-
-        "SID4": 9724,
-
-        "internet_island": {
-
-          "value": 2,
-
-          "label": "B"
-
-        }
-
-      },
-
-      "config_context": {},
-
-      "created": "2020-03-13",
-
-      "last_updated": "2021-11-07T15:09:26.230549+04:00"
-
-    }
-
-  ]
-
+    "serviceCapability": [
+        "all",
+        "epipe",
+        "vprn",
+        "mirror",
+        "apipe",
+        "vlan",
+        "fpipe",
+        "vpls",
+        "ies",
+        "cpipe",
+        "mvpls",
+        "ipipe"
+    ],
+    "numberOfNextHopInterfaceEntries": "0",
+    "useIpv6Resource": "false",
+    "chainToSystemFilter": "false",
+    "type": "normal",
+    "defaultAction": "drop",
+    "radiusStartEntry": "0",
+    "radiusCount": "0",
+    "creditControlStartEntry": "0",
+    "creditControlCount": "0",
+    "highWaterMark": "95",
+    "lowWaterMark": "90",
+    "creditControlInsertion": "0",
+    "radiusInsertion": "0",
+    "groupEntriesApplication": "creditControl",
+    "groupEntriesLocation": "top",
+    "groupEntriesResult": "none",
+    "hostSharedStartEntry": "0",
+    "hostSharedCount": "0",
+    "hostSharedInsertion": "0",
+    "sharedPccRuleStartEntry": "0",
+    "sharedPccRuleCount": "0",
+    "sharedPccRuleInsertion": "0",
+    "hostSharedHighWmark": "-1",
+    "hostSharedLowWmark": "-1",
+    "hostSharedFilterCount": "0",
+    "displayedId": "1",
+    "scope": "template",
+    "filterName": "1",
+    "filterType": "ip",
+    "policyMode": "static",
+    "numberOfUnderlyingPolicyItems": "0",
+    "configurationAction": "mergeIfExists",
+    "configurationMode": "draft",
+    "distributionMode": "syncWithGlobal",
+    "origin": "50.50.50.53",
+    "lastSyncTime": "1643092744506",
+    "discoveryState": "completed",
+    "isMaster": "false",
+    "policySyncGroupPointer": "",
+    "policyType": "ipAcl",
+    "isLocal": "false",
+    "siteId": "0.0.0.0",
+    "siteName": "N/A",
+    "displayedName": "IP Filter-1",
+    "description": "N/A",
+    "id": "1",
+    "globalPolicy": "",
+    "templateObject": "",
+    "deploymentState": 0,
+    "objectFullName": "IP Filter:1",
+    "name": "1",
+    "className": "aclfilter.IpFilter",
+    "selfAlarmed": "false",
+    "aclfilter.IpFilter": {}
 }
